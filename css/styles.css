@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    border: 1px red solid;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 10vh 1fr auto;
+    grid-template-areas: 
+        "hd"
+        "main"
+        "ft"
+    ;
+}
+header{
+    grid-area: hd;
+}
+main{
+    grid-area: main;
+    padding: 8px;
+}
+footer{
+    grid-area: ft;
+}
