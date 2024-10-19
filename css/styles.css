@@ -67,7 +67,31 @@ ul .active{
     flex-direction: column;
     justify-content: center;
     align-items: start;
+    padding: 10px;
 } 
+.hero h1{
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+.hero h1 span{
+    color: #5a3626;
+    text-transform: uppercase;
+}
+.hero h3{
+    font-size: 1.4rem;
+    margin-top: 0;
+}
+.hero .icons a{
+    text-decoration: none;
+    color: black;
+}
+.hero .icons a:visited{
+    text-decoration: none;
+}
+.hero .icons i{
+    font-size: 1.6rem;
+    margin-right: 10px;
+}
 main section{
     margin-bottom: 300px;
 }
