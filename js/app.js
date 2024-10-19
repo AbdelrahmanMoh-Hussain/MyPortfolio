@@ -58,16 +58,6 @@ document.addEventListener('scroll', () => {
 
 const upBtn = document.querySelector('button');
 document.addEventListener('scroll', () => {
-    console.log(document.body.clientHeight)
-    console.log(document.body.offsetHeight)
-    console.log(document.body.scrollHeight)
-    console.log(document.height);
-    console.log(window.screenY)
-    console.log(window.screenTop)
-    console.log(window.height)
-    console.log(window.innerHeight)
-    console.log(window.scrollY)
-    console.log(upBtn)
     if(window.innerHeight < window.scrollY) {
         upBtn.classList.add('d-block');
     }

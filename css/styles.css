@@ -68,7 +68,7 @@ nav {
 }
 .hero {
   height: 100vh;
-  background: url("/assests/images/Rectangle 2.png");
+  background: url("/assests/images/bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
