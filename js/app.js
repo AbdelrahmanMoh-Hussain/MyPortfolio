@@ -68,3 +68,22 @@ document.addEventListener('scroll', () => {
 upBtn.addEventListener('click', () => {
     document.querySelector('.hero').scrollIntoView({behavior: "smooth", block: "start"})
 });
+
+
+//Collapse section functionlty
+document.querySelector('main').addEventListener('click', (event) => {
+  const target = event.target;
+  if(target.parentElement.classList.contains('collapse-btn')){
+    console.log("HERE");
+    target.parentElement.nextElementSibling.classList.toggle('d-none');
+    // target.parentElement.querySelector('i').style.transform = 'rotate(180deg)';
+    if(target.parentElement.querySelector('i').classList.contains('bxs-down-arrow')){
+      target.parentElement.querySelector('i').classList.remove('bxs-down-arrow');
+      target.parentElement.querySelector('i').classList.add('bxs-up-arrow');
+    }
+    else if(target.parentElement.querySelector('i').classList.contains('bxs-up-arrow')){
+      target.parentElement.querySelector('i').classList.remove('bxs-up-arrow');
+      target.parentElement.querySelector('i').classList.add('bxs-down-arrow');
+    }
+  }
+});

@@ -16,4 +16,10 @@ Front end project represent the main portofile for me. This project aims to prac
 - Add styling to active section using classList
 - Improvie my styling skills
 
-## Live Page
+## Dependencies
+- Boxicons [https://boxicons.com/]
+
+## More info of me
+> Name: Abdelrahman Mohamed
+> Gmail: [abdelrahman.mohamed7337@gmail.com]
+> LinkedIn: [https://www.linkedin.com/in/abdelrahman-mohamed-mahmoud/]

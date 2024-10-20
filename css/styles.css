@@ -52,7 +52,6 @@ li:hover {
 ul .active {
   border: 1px #e0e0e0 solid;
   border-radius: 5px 10px;
-  /* background-color: #F4F6FF; */
   background-color: #88533c;
   color: #fff;
 }
@@ -106,6 +105,12 @@ nav {
 main section {
   margin-bottom: 300px;
 }
+main section a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 main section h2 {
   text-align: center;
   text-decoration: underline;
@@ -113,10 +118,15 @@ main section h2 {
   text-transform: uppercase;
   margin: 5px;
 }
-
+main section.active a {
+  background-color: #88533c;
+  color: #fff;
+  border-radius: 5px;
+}
 #about {
   text-align: center;
   padding: 0 0px;
+  margin-top: 6px;
 }
 #about p {
   margin: 0 auto;
@@ -137,7 +147,9 @@ main section h2 {
   flex: 1 15%;
   text-align: center;
 }
-
+.d-none{
+  display: none;
+}
 button {
   position: fixed;
   width: 50px;
